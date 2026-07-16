@@ -1,105 +1,110 @@
 <div align="center">
 
-<!-- ===== ANIMATED HEADER ===== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,100:24243e&height=220&section=header&text=Shivam%20Anand&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Engineer%20%E2%80%A2%20AI%20Builder%20%E2%80%A2%20SaaS%20Architect&descAlignY=56&descSize=18&descColor=a78bfa"/>
+<!-- ===== CUSTOM ANIMATED HEADER // glitch + HUD grid + press start ===== -->
+<img width="100%" src="assets/header.svg" alt="Shivam Anand, Full Stack // AI Engineer" />
 
-<!-- ===== TYPING ANIMATION ===== -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+AI-Powered+SaaS+Platforms+%F0%9F%9A%80;Full-Stack+Dev+%7C+Next.js+%2B+Node.js+%2B+Python;Backend+Architect+%7C+Redis+%2B+PostgreSQL;GenAI+%7C+RAG+%7C+LangChain+%F0%9F%A4%96;Mechanical+Engineer+%E2%86%92+Software+Developer+%E2%9A%A1" alt="Typing SVG" />
+<!-- ===== TYPING ANIMATION (ORBITRON) ===== -->
+<a href="https://shivam-anand-portfolio-03.netlify.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=21&duration=2800&pause=900&color=FF2A3D&center=true&vCenter=true&width=720&lines=BUILDING+AI+POWERED+SAAS+PLATFORMS;FULL+STACK+%2F%2F+NEXT.JS+%2B+NODE.JS+%2B+FASTAPI;GENAI+%2F%2F+RAG+%2F%2F+LANGCHAIN+%2F%2F+PINECONE;15%2C000%2B+DOCS+INDEXED+IN+ONE+RAG+PIPELINE;INSERT+COIN+TO+CONTINUE..." alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
 <!-- ===== BADGES ===== -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=Shivam-Anand-03&style=for-the-badge&color=7c3aed&labelColor=0f0c29&label=PROFILE+VIEWS" />
+  <img src="https://komarev.com/ghpvc/?username=Shivam-Anand-03&style=for-the-badge&color=ff2a3d&labelColor=0a0a0c&label=PROFILE+VIEWS" />
   &nbsp;
   <a href="https://github.com/Shivam-Anand-03?tab=followers">
-    <img src="https://img.shields.io/github/followers/Shivam-Anand-03?style=for-the-badge&color=7c3aed&labelColor=0f0c29&logo=github&label=FOLLOWERS" />
+    <img src="https://img.shields.io/github/followers/Shivam-Anand-03?style=for-the-badge&color=ff2a3d&labelColor=0a0a0c&logo=github&label=FOLLOWERS" />
+  </a>
+  &nbsp;
+  <a href="https://shivam-anand-portfolio-03.netlify.app/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-ENTER%20WORLD-ff2a3d?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0a0a0c" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/shivam-anand-developer/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f0c29" />
+    <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-ff2a3d?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0c" />
   </a>
   &nbsp;
   <a href="mailto:shivam850anand@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0c29" />
+    <img src="https://img.shields.io/badge/EMAIL-REACH%20OUT-ff2a3d?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0c" />
   </a>
 </p>
 
 </div>
 
-<!-- ===== GRADIENT DIVIDER ===== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2"/>
+<img width="100%" src="assets/divider.svg" alt="" />
 
-## ⚡ About Me
+## 🎮 PLAYER PROFILE
 
 ```typescript
-const shivam: Developer = {
-  role        : "Full-Stack Engineer & AI Builder",
-  location    : "Indore, India 🇮🇳",
-  education   : "B.E. @ SGSITS Indore (Mechanical → turned Coder 🔄)",
-  currentWork : "AI & Fullstack Developer Intern @ Xoidlabs",
-  focus       : ["Scalable SaaS", "GenAI / RAG", "Backend Architecture"],
-  contact     : "shivam850anand@gmail.com",
-  funFact     : "Switched from engines to algorithms — no regrets! ⚙️ → 💻",
+const player = {
+  name         : "Shivam Anand",
+  class        : "Full Stack // AI Engineer",
+  guild        : "Xoidlabs",
+  base         : "Indore, India 🇮🇳",
+  education    : "B.E. @ SGSITS Indore",
+  mainQuest    : "Building AI powered SaaS platforms that real people use",
+  skillTree    : ["Scalable SaaS", "GenAI / RAG", "Backend Architecture"],
+  contact      : "shivam850anand@gmail.com",
+  achievement  : "Shipped 3 AI platforms before graduating ⚡",
 };
 ```
 
-- 🔭 Currently building **AI-powered SaaS platforms** with real-time analytics
-- 🌱 Deep-diving into **LangChain, LLM fine-tuning & vector databases**
-- 💬 Ask me about **Next.js, Node.js, FastAPI, Redis & system design**
-- ⚡ Fun fact: I traded **mechanical blueprints for software architecture**
+- 🎯 **MAIN QUEST:** building AI platforms (HPLC AI, Upgence, Trugent) at **Xoidlabs**
+- 🌱 **XP FARMING:** LangChain, LLM tool calling, vector databases and semantic search
+- ⚔️ **WEAPONS OF CHOICE:** Next.js, TypeScript, Node.js, FastAPI, PostgreSQL, Redis
+- 🕹️ **200+ LeetCode problems cleared** and counting
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2"/>
+<img width="100%" src="assets/divider.svg" alt="" />
 
-## 💼 Experience
+## ⚔️ QUEST LOG
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🟣 Xoidlabs — AI & Fullstack Intern
-`Jul 2025 – Present`
-- Built **Trugent** — AI-powered call-support platform with custom AI assistants & real-time analytics
-- Shipped SaaS apps: **HPLC AI, HR & Inventory Mgmt, Event Tools**
-- Managed **GCP** infra with Docker, Nginx & Bitbucket CI/CD
-- Led a **50-member annotation team**
+### 🔴 MAIN QUEST // Xoidlabs
+**AI & Full Stack Developer** · `Jul 2025 to Present`
+- Built **3 AI platforms** (HPLC AI, Upgence, Trugent) on production ready architecture
+- Engineered a **RAG pipeline over 15,000+ documents** with Pinecone and semantic caching, boosting retrieval efficiency ~95%
+- Created **Upgence**, an AI freelancer marketplace with WebRTC AI interviews and LLM tool calling
+- Deployed on **GCP** with Docker, Nginx, PM2 and CI/CD
+- Led a **50 person data annotation team**
 
-**Stack:** `Next.js` `Node.js` `FastAPI` `PostgreSQL` `Prisma` `Redis` `Pinecone` `Docker` `GCP`
+**Stack:** `Next.js` `FastAPI` `LangChain` `Pinecone` `PostgreSQL` `Redis` `Docker` `GCP`
 
 </td>
 <td width="50%" valign="top">
 
-### 🔵 Flexzistay — Software Developer Intern
-`Dec 2025 – Feb 2026`
-- Cut Google Places API costs via **Redis caching & background jobs**
-- Built scalable **monorepo** backend services
-- Boosted frontend with **infinite scroll** & optimized DB queries
+### 🔴 SIDE QUEST // Flexzistay
+**Software Developer Intern** · `Dec 2025 to Feb 2026`
+- Cut Google Places API costs by **40%+** with Redis caching and background jobs on GCP Pub/Sub
+- Sped up the Next.js frontend with infinite scrolling, lazy loading and tuned PostgreSQL queries
 
-**Stack:** `TypeScript` `Next.js` `Express.js` `PostgreSQL` `Prisma` `Redis` `GCP Pub/Sub` `Docker`
+**Stack:** `TypeScript` `Next.js` `PostgreSQL` `Redis` `GCP Pub/Sub`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🟢 Upfound — Backend Developer Intern
-`May 2025 – Jul 2025`
-- Built REST APIs for a **MERN** jobseeker platform
-- **JWT auth** + role-based access control
-- Integrated **AWS S3, Cloudinary, Firebase Admin**
+### 🔴 SIDE QUEST // Upfound
+**Backend Developer Intern** · `May 2025 to Jul 2025`
+- Built the backend of a social media management platform on the **MERN stack**
+- Secure REST APIs with **JWT auth** and role based access control via Auth0
+- Integrated **AWS S3, Cloudinary and Firebase** with live updates over WebSockets
 
 **Stack:** `Node.js` `Express` `MongoDB` `Redis` `WebSockets`
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ Always Building...
-- Open-source components & UI libraries
-- AI-integrated developer tools
-- Side projects & SaaS experiments
-- Exploring **LangChain, RAG & vector DBs**
+### ⚡ ENDLESS MODE // Always Building
+- Open source components and UI libraries
+- AI integrated developer tools
+- SaaS experiments and side projects
+- Exploring LangGraph, agents and vector DBs
 
 **Mindset:** `Ship fast` `Scale smart` `Stay curious`
 
@@ -107,135 +112,174 @@ const shivam: Developer = {
 </tr>
 </table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2"/>
+<img width="100%" src="assets/divider.svg" alt="" />
 
-## 🚀 Featured Projects
+## 🚀 LEGENDARY BUILDS
 
 <div align="center">
 
-| Project | Description | Tech |
-|:--------|:------------|:-----|
-| 📧 **AI Mailing SaaS** | AI-powered bulk email campaigns with personalization, multi-inbox sync & smart analytics | `Next.js` `tRPC` `PostgreSQL` `Redis` `AI` |
-| ⚖️ **Legal Management SaaS** | Role-based legal platform with AI document generation, summarization & case management | `Next.js` `GraphQL` `Prisma` `MySQL` `Gemini` |
-| 🎨 **Clamp UI** | Accessible component library — 60fps animations, ShadCN-style CLI, `<15kB` bundle, WCAG 2.1 | `React` `Framer Motion` `TypeScript` |
+| Build | Description | Tech |
+|:------|:------------|:-----|
+| 📧 **[Miraj AI Mailer](https://www.loom.com/share/902f7cf38fe143558f7f38e26da46866)** | AI powered bulk email SaaS with smart personalization, open rate optimization and one unified inbox across accounts | `Next.js` `tRPC` `Convex` `OpenAI` `Redis` |
+| ⚖️ **[LawCrew](https://www.youtube.com/watch?v=QDZgMRAH-qg)** | Legal practice SaaS with 4 role RBAC and AI that drafts legal documents and case analysis, cutting review time 70%+ | `Next.js` `Prisma` `MySQL` `Gemini` `GraphQL` |
+| 🎨 **[Clamp UI](https://code-clamp.vercel.app/)** | Developer first component library. Accessible, themeable and ready to drop into production | `React` `TypeScript` `Tailwind` |
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2"/>
+<img width="100%" src="assets/divider.svg" alt="" />
 
-## 🛠️ Tech Stack
+## 🛠️ SKILL TREE
 
 <div align="center">
 
 ### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+<img src="https://img.shields.io/badge/TypeScript-0d0d11?style=for-the-badge&logo=typescript&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/JavaScript-0d0d11?style=for-the-badge&logo=javascript&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Python-0d0d11?style=for-the-badge&logo=python&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/C++-0d0d11?style=for-the-badge&logo=cplusplus&logoColor=ff2a3d" />
 
 ### Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+<img src="https://img.shields.io/badge/Next.js-0d0d11?style=for-the-badge&logo=nextdotjs&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/React-0d0d11?style=for-the-badge&logo=react&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Redux-0d0d11?style=for-the-badge&logo=redux&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Tailwind-0d0d11?style=for-the-badge&logo=tailwindcss&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Shadcn_UI-0d0d11?style=for-the-badge&logo=shadcnui&logoColor=ff2a3d" />
 
 ### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+<img src="https://img.shields.io/badge/Node.js-0d0d11?style=for-the-badge&logo=nodedotjs&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Express-0d0d11?style=for-the-badge&logo=express&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/FastAPI-0d0d11?style=for-the-badge&logo=fastapi&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/GraphQL-0d0d11?style=for-the-badge&logo=graphql&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/tRPC-0d0d11?style=for-the-badge&logo=trpc&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/JWT-0d0d11?style=for-the-badge&logo=jsonwebtokens&logoColor=ff2a3d" />
 
 ### Databases & Caching
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+<img src="https://img.shields.io/badge/PostgreSQL-0d0d11?style=for-the-badge&logo=postgresql&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/MySQL-0d0d11?style=for-the-badge&logo=mysql&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/MongoDB-0d0d11?style=for-the-badge&logo=mongodb&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Redis-0d0d11?style=for-the-badge&logo=redis&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Prisma-0d0d11?style=for-the-badge&logo=prisma&logoColor=ff2a3d" />
 
 ### AI / ML
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=google&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+<img src="https://img.shields.io/badge/LangChain-0d0d11?style=for-the-badge&logo=langchain&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/OpenAI-0d0d11?style=for-the-badge&logo=openai&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Claude-0d0d11?style=for-the-badge&logo=anthropic&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Gemini-0d0d11?style=for-the-badge&logo=googlegemini&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Pinecone-0d0d11?style=for-the-badge&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/RAG-0d0d11?style=for-the-badge&logoColor=ff2a3d" />
 
 ### Cloud & DevOps
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-181717?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<img src="https://img.shields.io/badge/GCP-0d0d11?style=for-the-badge&logo=googlecloud&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/AWS-0d0d11?style=for-the-badge&logo=amazonwebservices&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Docker-0d0d11?style=for-the-badge&logo=docker&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Nginx-0d0d11?style=for-the-badge&logo=nginx&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/PM2-0d0d11?style=for-the-badge&logo=pm2&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/GitHub_Actions-0d0d11?style=for-the-badge&logo=githubactions&logoColor=ff2a3d" />
+<img src="https://img.shields.io/badge/Linux-0d0d11?style=for-the-badge&logo=linux&logoColor=ff2a3d" />
 
 <br/>
 
-<!-- Quick-glance icon strip -->
-<img src="https://skillicons.dev/icons?i=ts,js,python,cpp,nextjs,react,tailwind,redux,nodejs,express,fastapi,graphql,nestjs,postgres,mongodb,redis,mysql,prisma,gcp,aws,docker,nginx,linux&perline=12" />
+<img src="https://skillicons.dev/icons?i=ts,js,python,cpp,nextjs,react,redux,tailwind,nodejs,express,fastapi,graphql,postgres,mysql,mongodb,redis,prisma,gcp,aws,docker,nginx,linux,git&perline=12&theme=dark" />
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2"/>
+<img width="100%" src="assets/divider.svg" alt="" />
 
-## 📊 GitHub Stats
+## 📊 PLAYER STATS
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shivam-Anand-03&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0f0c29&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shivam-Anand-03&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0a0c&title_color=ff2a3d&icon_color=ff2a3d&text_color=ffffff"/>
   &nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivam-Anand-03&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0f0c29&title_color=a78bfa&text_color=ffffff"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivam-Anand-03&layout=compact&langs_count=8&hide_border=true&bg_color=0a0a0c&title_color=ff2a3d&text_color=ffffff"/>
 </div>
 
 <div align="center">
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Shivam-Anand-03&theme=midnight-purple&hide_border=true&background=0f0c29&ring=a78bfa&fire=f59e0b&currStreakLabel=a78bfa"/>
+  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Shivam-Anand-03&hide_border=true&background=0a0a0c&ring=ff2a3d&fire=ff2a3d&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ff2a3d&sideLabels=ff2a3d&dates=9a9aa6"/>
 </div>
 
-<!-- ===== CONTRIBUTION SNAKE (needs the workflow — see setup note below) ===== -->
+<!-- Contribution snake (dark). Needs the snake workflow, see setup below. -->
 <div align="center">
   <img width="90%" src="https://raw.githubusercontent.com/Shivam-Anand-03/Shivam-Anand-03/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
 </div>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Shivam-Anand-03&bg_color=0f0c29&color=a78bfa&line=7c3aed&point=f59e0b&area=true&hide_border=true"/>
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Shivam-Anand-03&bg_color=0a0a0c&color=ff2a3d&line=b00020&point=ffffff&area=true&hide_border=true"/>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2"/>
+<details>
+<summary>🐍 Snake setup (one time)</summary>
 
-## 🏆 GitHub Trophies
+Create `.github/workflows/snake.yml` in this repo with:
+
+```yaml
+name: generate snake
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Shivam-Anand-03
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Then run it once from the Actions tab.
+
+</details>
+
+<img width="100%" src="assets/divider.svg" alt="" />
+
+## 🏆 ACHIEVEMENTS UNLOCKED
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shivam-Anand-03&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Shivam-Anand-03&theme=onestar&no-frame=true&no-bg=true&margin-w=8&column=7" />
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2"/>
+- 🥇 **Finalist** at Bit and Build Hackathon 2024 (GDSC FCRCE, Mumbai)
+- 🧠 **200+ LeetCode problems** solved
+- 🤖 **3 AI platforms shipped** to production while still in college
 
-## 💡 Dev Quote
+<img width="100%" src="assets/divider.svg" alt="" />
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=2"/>
-
-## 📫 Let's Connect
+## 📫 CO-OP MODE
 
 <div align="center">
 
+<a href="https://shivam-anand-portfolio-03.netlify.app/">
+  <img src="https://img.shields.io/badge/PORTFOLIO-ff2a3d?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0a0a0c" />
+</a>
+&nbsp;
 <a href="https://www.linkedin.com/in/shivam-anand-developer/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LINKEDIN-ff2a3d?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0c" />
 </a>
 &nbsp;
 <a href="mailto:shivam850anand@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/GMAIL-ff2a3d?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0c" />
 </a>
 &nbsp;
-<a href="https://github.com/Shivam-Anand-03">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://leetcode.com/u/Shivam-Anand-03/">
+  <img src="https://img.shields.io/badge/LEETCODE-ff2a3d?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0a0a0c" />
 </a>
 
 <br/><br/>
 
-> *"From mechanical blueprints to software architecture — building systems that scale."* ⚙️ → 🚀
+> *"From mechanical blueprints to software architecture. Building systems that scale."* ⚙️ → 🚀
 
 </div>
 
-<!-- ===== ANIMATED FOOTER ===== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=a78bfa&fontAlignY=70"/>
+<!-- ===== CUSTOM ANIMATED FOOTER // game over screen ===== -->
+<img width="100%" src="assets/footer.svg" alt="Thanks for playing" />
+

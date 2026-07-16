@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5563"/>
+      <stop offset="1" stop-color="#b00020"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ff2a3d" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <!-- base -->
+  <rect width="1200" height="300" fill="#060608"/>
+
+  <!-- moving HUD grid -->
+  <rect width="1284" height="300" fill="url(#grid)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-42 0" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- breathing ambient glow -->
+  <ellipse cx="600" cy="150" rx="430" ry="160" fill="#ff2a3d" opacity="0.08">
+    <animate attributeName="opacity" values="0.05;0.11;0.05" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- sweeping scan bar -->
+  <rect x="0" y="-36" width="1200" height="30" fill="#ff2a3d" opacity="0.06">
+    <animate attributeName="y" values="-36;300" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- corner HUD brackets -->
+  <g stroke="#ff2a3d" stroke-width="3" fill="none">
+    <path d="M16 48V16h32"/>
+    <path d="M1152 16h32v32"/>
+    <path d="M48 284H16v-32"/>
+    <path d="M1184 252v32h-32"/>
+    <animate attributeName="stroke-opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ONLINE status -->
+  <g font-family="Arial, sans-serif" font-weight="bold">
+    <circle cx="58" cy="52" r="5" fill="#ff2a3d">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="72" y="57" fill="#9a9aa6" font-size="14" letter-spacing="3">ONLINE</text>
+  </g>
+
+  <!-- LVL badge -->
+  <g font-family="Arial, sans-serif" font-weight="bold">
+    <rect x="1030" y="36" width="122" height="32" fill="none" stroke="#ff2a3d" stroke-opacity="0.7"/>
+    <text x="1091" y="58" fill="#ff2a3d" font-size="15" text-anchor="middle" letter-spacing="4">LVL 21</text>
+  </g>
+
+  <!-- glitch title: red + shadow layers flicker behind the white layer -->
+  <g font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="66" text-anchor="middle" letter-spacing="8">
+    <text x="594" y="152" fill="#ff2a3d" opacity="0">SHIVAM ANAND<animate attributeName="opacity" values="0;0;0.9;0;0;0.7;0;0" keyTimes="0;0.28;0.31;0.34;0.55;0.58;0.61;1" dur="3.6s" repeatCount="indefinite"/></text>
+    <text x="606" y="154" fill="#7a0012" opacity="0">SHIVAM ANAND<animate attributeName="opacity" values="0;0;0.9;0;0;0;0.8;0" keyTimes="0;0.29;0.32;0.35;0.7;0.73;0.76;1" dur="3.6s" repeatCount="indefinite"/></text>
+    <text x="600" y="152" fill="#ffffff" filter="url(#glow)">SHIVAM ANAND</text>
+  </g>
+
+  <!-- subtitle -->
+  <text x="600" y="196" font-family="Arial, sans-serif" font-weight="bold" font-size="17" text-anchor="middle" letter-spacing="7" fill="#ff2a3d" filter="url(#glow)">FULL STACK // AI ENGINEER // SAAS BUILDER</text>
+
+  <!-- HP / XP bars -->
+  <g font-family="Arial, sans-serif" font-weight="bold" font-size="12">
+    <text x="60" y="238" fill="#9a9aa6" letter-spacing="2">HP</text>
+    <rect x="90" y="228" width="170" height="10" fill="#1a1a20"/>
+    <rect x="90" y="228" width="170" height="10" fill="url(#bar)">
+      <animate attributeName="opacity" values="1;0.75;1" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60" y="262" fill="#9a9aa6" letter-spacing="2">XP</text>
+    <rect x="90" y="252" width="170" height="10" fill="#1a1a20"/>
+    <rect x="90" y="252" width="0" height="10" fill="url(#bar)">
+      <animate attributeName="width" values="0;170;170" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- blinking press start -->
+  <text x="600" y="248" font-family="Arial, sans-serif" font-weight="bold" font-size="16" text-anchor="middle" letter-spacing="6" fill="#ffffff">▶ PRESS START<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.55;0.9;1" dur="1.5s" repeatCount="indefinite"/></text>
+
+  <!-- score ticker -->
+  <text x="1140" y="256" font-family="Arial, sans-serif" font-weight="bold" font-size="12" text-anchor="end" letter-spacing="3" fill="#9a9aa6">SCORE 200+ // LEETCODE</text>
+</svg>
